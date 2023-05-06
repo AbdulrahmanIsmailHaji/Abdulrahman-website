@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>University website</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png "></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li> 
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+             <h1>Our certificate and online programe for 2023</h1>
+        </header>
+        <main>
+            <section class="blog-content">
+                <div class="row">
+                    <div class="blog-left">
+                        <img src="images/certificate.jpg">
+                        <h2>Our certificate and online programe for 2023</h2>
+                        <p>I would like to talk to you about the importance of certificates in today's world. A certificate is a document that certifies or confirms a particular achievement, skill, or qualification. It is a valuable asset for anyone who is seeking employment, advancing their career, or pursuing further education.</p>
+                        <p>
+                            Certificates come in different forms, including academic certificates, professional certificates, and industry-recognized certifications. Academic certificates are awarded by educational institutions to students who have completed a specific course or program of study. These certificates often demonstrate a level of knowledge or expertise in a particular subject area, and they can be useful in securing employment or pursuing further education.
+                        </p>
+                        <br>
+                        <p>Professional certificates, on the other hand, are issued by professional organizations or associations and are typically focused on a specific industry or profession. These certificates often require passing an exam or meeting certain criteria to obtain, and they can be beneficial in demonstrating a level of competency and expertise to employers.
+                        </p>
+                        <br>
+                        <p>
+                            Finally, industry-recognized certifications are often required by employers to demonstrate that an individual has the necessary skills and knowledge to perform a particular job or task. These certifications can range from technical skills, such as computer programming, to soft skills, such as project management.
+                        </p>
+                        <div class="comment-box">
+                            <h3>Leave a Comment</h3>
+                            <form class="comment-form">
+                                <input type="text" placeholder="Enter Your Name">
+                                <input type="email" placeholder="Enter Your Email">
+                                <textarea rows="10" placeholder="Leave Your Comment Here"></textarea>
+                                <button type="submit" class="hero-btn red-btn"> Post Comment</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="blog-right">
+                        <h3>Post Catigorise</h3>
+                        <div>
+                            <span>Bussines Analytics</span>
+                            <span>67</span>
+                        </div>
+                        <div>
+                            <span>Data Sience </span>
+                            <span>25</span>
+                        </div>
+                        <div>
+                            <span>Machine Learning</span>
+                            <span>87</span>
+                        </div>
+                        <div>
+                            <span>Computer Sience</span>
+                            <span>54</span>
+                        </div>
+                        <div>
+                            <span> AutoCAD</span>
+                            <span>33</span>
+                        </div>
+                        <div>
+                            <span>Journalism</span>
+                            <span>22</span>
+                        </div>
+                        <div>
+                            <span>Commercies</span>
+                            <span>33</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    <footer class="footer">
+        <h4>About Us</h4>
+        <p>You're free to Contact Us and asking any qustion that you want!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </footer>
+        <script>
+            let navlinks = document.getElementById("navLinks");
+            function  showMenu(){
+                navlinks.style.right ="0";
+            }
+            function hideMenu(){
+                navlinks.style.right ="-200px";
+            }
+        </script>
+    </body>
+</html>
